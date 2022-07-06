@@ -17,16 +17,16 @@ export default function Effect() {
 
   return (
     <div>
-    Hello World
-    <h1>{data}</h1>
-    <h1>{count}</h1>
-    <button
-      onClick={() => {
-        setCount(count + 1);
-      }}
-    >
-      Click
-    </button>
-  </div>
+      Hello World
+      <h1>{data}</h1>
+      <h1>{count}</h1>
+      <button
+        onClick={() => {
+          setCount(count + 1);
+        }}
+      >
+        Click
+      </button>
+    </div>
   );
 }
