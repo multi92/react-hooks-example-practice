@@ -2,12 +2,12 @@ import React, {useRef} from 'react'
 
 //useRef hook jeste najlaksi nacin kako da pristupimo dom elementu
 //veoma je laksi nego u vanila Js-u gde moramo manuelno da pristupimo DOMU
-//u ovom primeru cemo se fokusirati na dom elementu input polja svaki put kada kliknemo na dugme
+
 
 export default function Ref() {
 
     const inputRef = useRef(null);
-
+//u ovom primeru cemo se fokusirati na dom elementu input polja svaki put kada kliknemo na dugme
     const onClick = () => {
         inputRef.current.value = "";
     }
